@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LINKS</title>
+</head>
+<body>
+	<h1>HERE ARE MY FAVORITE SITES:</h1>
+	<p><strong>CLICK A NAME TO VISIT THAT SITE.</strong></p>
+
+	<!--create four text hyperlinks-->
+	<p><a href="http://www.facebook.com">FACEBOOK</a></p>
+	<p><a href="http://www.twitter.com">TWITTER</a></p>
+	<p><a href="http://www.foursquare.com">FOURSQUARE</a></p>
+	<p><a href="http://www.google.com">GOOGLE</a></p>
+
+</body>
+</html>
