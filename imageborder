@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>image border</title>
+	<style type="text/css">
+		div
+		{
+			border-width: 30px;
+			width: 234px;
+			padding: 20px 20px;
+		}
+		#stretch
+		{
+		    -webkit-border-image: url(border.png) 80 80  80 80 stretch;
+		    -moz-border-image: url(border.png) 80 80  80 80 stretch;
+		    -o-border-image: url(border.png) 80 80  80 80 stretch;
+		    border-image: url(border.png) 80 80  80 80 stretch;
+
+		}
+		#repeat
+		{
+			-webkit-border-image: url(border.png) 34%  34% repeat;  
+		    -moz-border-image: url(border.png) 34%  34% repeat;  
+		    -o-border-image: url(border.png) 34%  34% repeat;  
+		    border-image: url(border.png) 34%  34% repeat;  
+		}
+	</style>
+</head>
+<body>
+	<h2>IMAGE BORDERS</h2>
+	<img src="border.png" alt="image used to demostrate borders">
+	<p><div id="stretch">STRETCHING THE IMAGE BORDER</div></p>
+	<p><div id="repeat">REPEATING THE IMAGE BORDER</div></p>
+
+</body>
+</html>
